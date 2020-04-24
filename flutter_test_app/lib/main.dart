@@ -1,6 +1,5 @@
 import 'package:audioplayers/audio_cache.dart';
 import 'package:flutter/material.dart';
-import 'package:audioplayers/audioplayers.dart';
 
 void main() => runApp(XylophoneApp());
 
@@ -48,7 +47,7 @@ class _AudioState extends State<Audio> {
         color: cor,
         onPressed:(){
           player.play('note$botao.wav');
-        } 
+        }
       ),
     );
   }
